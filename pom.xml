@@ -1,0 +1,107 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>openIo-example</groupId>
+  <artifactId>com.pengkey.openlo.example</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>com.pengkey.openlo.example Maven Webapp</name>
+<!--  <url>http://maven.apache.org</url>-->
+  <dependencies>
+    <dependency>
+      <groupId>cn.openlo</groupId>
+      <artifactId>lo-starter</artifactId>
+      <version>1.0.9.RELEASE</version>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>com.pengkey.openlo.example</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+          <encoding>UTF-8</encoding>
+          <showDeprecation>true</showDeprecation>
+          <showWarnings>true</showWarnings>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <!--配置maven私服-->
+  <repositories>
+    <repository>
+      <id>public</id>
+      <name>public</name>
+      <url>http://www.openlo.cn:8081/nexus/content/groups/public/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <!-- 关闭从public下载snapshots -->
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>private</id>
+      <name>private</name>
+      <url>http://www.openlo.cn:8081/nexus/content/groups/private/</url>
+      <releases>
+        <enabled>true</enabled>
+        <!-- 每次构建都从远程仓库检查更新 -->
+        <updatePolicy>always</updatePolicy>
+        <!-- 验证checksum文件 -->
+        <checksumPolicy>warn</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <!-- 每次构建都从远程仓库检查更新 -->
+        <updatePolicy>always</updatePolicy>
+        <!-- 验证checksum文件 -->
+        <checksumPolicy>warn</checksumPolicy>
+      </snapshots>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>public</id>
+      <name>public</name>
+      <url>http://www.openlo.cn:8081/nexus/content/groups/public/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+    <pluginRepository>
+      <id>private</id>
+      <name>private</name>
+      <url>http://www.openlo.cn:8081/nexus/content/groups/private/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
+</project>
