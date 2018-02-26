@@ -1,0 +1,120 @@
+2018-02-26 10:40:02.036 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:40:02.051 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:40:02.051 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:40:02.051 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-26 10:40:02.114 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-26 10:40:02.114 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-26 10:40:02.114 INFO [main][lo.lifecycle.logger][{}] - Initing DependencyManager.
+2018-02-26 10:40:02.129 INFO [main][lo.lifecycle.logger][{}] - Initing boxConfig.
+2018-02-26 10:40:02.129 INFO [main][lo.lifecycle.logger][{}] - Box config key: #box/box01.properties#.
+2018-02-26 10:40:02.129 INFO [main][lo.lifecycle.logger][{}] - Box config attrs: #BoxConfigAttrs [boxName=box01, boxHome=src/main/resources/box01, boxCategory=_test_lo_box, defaultCharset=UTF-8, enableMonitor=false, detailReportDelayInMins=30, gearList=[hello-world], enableProtocolList=[HTTP, DUBBO], enableClientList=[DUBBO, HTTP, LOCAL], tcpHealthCheckEnable=true, tcpHealthCheckPort=5555, timeoutWaitingGearsStopped=10000, tempFilesKeepMaxHours=72, properties={box.default.charset=UTF-8, box.version=1.0.0, box.executor.inner.threads=3, box.executor.async_call.threads=5, box.executor.default.threads=5, box.enable.protocol.list=http,dubbo, box.executor.inner.queueSize=1024, box.executor.inner.scheduled=true, box.name=box01, box.config.gear.list=hello-world, box.executor.default.queueSize=1024, box.executor.default.scheduled=true, box.enable.monitor=false, box.timeout.waiting.gears.stopped=10000, box.executor.async_call.queueSize=2048, box.category=_test_lo_box, box.executor.async_call.scheduled=false}]#.
+2018-02-26 10:40:02.129 INFO [main][lo.lifecycle.logger][{}] - Box #box01# inited.
+2018-02-26 10:40:02.129 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: INITIALIZED.
+2018-02-26 10:40:02.129 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZED to state: STARTING.
+2018-02-26 10:40:02.129 INFO [main][lo.lifecycle.logger][{}] - Starting box #box01#.
+2018-02-26 10:40:02.129 INFO [main][lo.lifecycle.logger][{}] - Start Box log4j2.
+2018-02-26 10:56:37.579 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:56:37.579 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:56:37.579 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:56:37.579 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-26 10:56:37.610 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-26 10:56:37.626 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-26 10:56:37.626 INFO [main][lo.lifecycle.logger][{}] - Initing DependencyManager.
+2018-02-26 10:56:37.626 INFO [main][lo.lifecycle.logger][{}] - Initing boxConfig.
+2018-02-26 10:56:37.626 INFO [main][lo.lifecycle.logger][{}] - Box config key: #box/box01.properties#.
+2018-02-26 10:56:37.642 INFO [main][lo.lifecycle.logger][{}] - Box config attrs: #BoxConfigAttrs [boxName=box01, boxHome=src/main/resources/box01, boxCategory=_test_lo_box, defaultCharset=UTF-8, enableMonitor=false, detailReportDelayInMins=30, gearList=[hello-world], enableProtocolList=[HTTP, DUBBO], enableClientList=[DUBBO, HTTP, LOCAL], tcpHealthCheckEnable=true, tcpHealthCheckPort=5555, timeoutWaitingGearsStopped=10000, tempFilesKeepMaxHours=72, properties={box.default.charset=UTF-8, box.version=1.0.0, box.executor.inner.threads=3, box.executor.async_call.threads=5, box.executor.default.threads=5, box.enable.protocol.list=http,dubbo, box.executor.inner.queueSize=1024, box.executor.inner.scheduled=true, box.name=box01, box.config.gear.list=hello-world, box.executor.default.queueSize=1024, box.executor.default.scheduled=true, box.enable.monitor=false, box.timeout.waiting.gears.stopped=10000, box.executor.async_call.queueSize=2048, box.category=_test_lo_box, box.executor.async_call.scheduled=false}]#.
+2018-02-26 10:56:37.642 INFO [main][lo.lifecycle.logger][{}] - Box #box01# inited.
+2018-02-26 10:56:37.642 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: INITIALIZED.
+2018-02-26 10:56:37.642 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZED to state: STARTING.
+2018-02-26 10:56:37.642 INFO [main][lo.lifecycle.logger][{}] - Starting box #box01#.
+2018-02-26 10:56:37.642 INFO [main][lo.lifecycle.logger][{}] - Start Box log4j2.
+2018-02-26 10:59:20.007 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:59:20.007 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:59:20.007 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 10:59:20.007 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-26 10:59:20.054 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-26 10:59:20.070 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-26 10:59:20.070 INFO [main][lo.lifecycle.logger][{}] - Initing DependencyManager.
+2018-02-26 10:59:20.070 INFO [main][lo.lifecycle.logger][{}] - Initing boxConfig.
+2018-02-26 10:59:20.070 INFO [main][lo.lifecycle.logger][{}] - Box config key: #box/box01.properties#.
+2018-02-26 10:59:20.085 INFO [main][lo.lifecycle.logger][{}] - Box config attrs: #BoxConfigAttrs [boxName=box01, boxHome=src/main/resources/box01, boxCategory=_test_lo_box, defaultCharset=UTF-8, enableMonitor=false, detailReportDelayInMins=30, gearList=[hello-world], enableProtocolList=[HTTP, DUBBO], enableClientList=[DUBBO, HTTP, LOCAL], tcpHealthCheckEnable=true, tcpHealthCheckPort=5555, timeoutWaitingGearsStopped=10000, tempFilesKeepMaxHours=72, properties={box.default.charset=UTF-8, box.version=1.0.0, box.executor.inner.threads=3, box.executor.async_call.threads=5, box.executor.default.threads=5, box.enable.protocol.list=http,dubbo, box.executor.inner.queueSize=1024, box.executor.inner.scheduled=true, box.name=box01, box.config.gear.list=hello-world, box.executor.default.queueSize=1024, box.executor.default.scheduled=true, box.enable.monitor=false, box.timeout.waiting.gears.stopped=10000, box.executor.async_call.queueSize=2048, box.category=_test_lo_box, box.executor.async_call.scheduled=false}]#.
+2018-02-26 10:59:20.085 INFO [main][lo.lifecycle.logger][{}] - Box #box01# inited.
+2018-02-26 10:59:20.085 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: INITIALIZED.
+2018-02-26 10:59:20.085 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZED to state: STARTING.
+2018-02-26 10:59:20.085 INFO [main][lo.lifecycle.logger][{}] - Starting box #box01#.
+2018-02-26 10:59:20.085 INFO [main][lo.lifecycle.logger][{}] - Start Box log4j2.
+2018-02-26 11:15:16.596 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:15:16.613 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:15:16.613 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:15:16.614 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-26 11:15:16.648 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-26 11:15:16.648 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - Initing DependencyManager.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - Initing boxConfig.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - Box config key: #box/box01.properties#.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - Box config attrs: #BoxConfigAttrs [boxName=box01, boxHome=src/main/resources/box01, boxCategory=_test_lo_box, defaultCharset=UTF-8, enableMonitor=false, detailReportDelayInMins=30, gearList=[hello-world], enableProtocolList=[HTTP, DUBBO], enableClientList=[DUBBO, HTTP, LOCAL], tcpHealthCheckEnable=true, tcpHealthCheckPort=5555, timeoutWaitingGearsStopped=10000, tempFilesKeepMaxHours=72, properties={box.default.charset=UTF-8, box.version=1.0.0, box.executor.inner.threads=3, box.executor.async_call.threads=5, box.executor.default.threads=5, box.enable.protocol.list=http,dubbo, box.executor.inner.queueSize=1024, box.executor.inner.scheduled=true, box.name=box01, box.config.gear.list=hello-world, box.executor.default.queueSize=1024, box.executor.default.scheduled=true, box.enable.monitor=false, box.timeout.waiting.gears.stopped=10000, box.executor.async_call.queueSize=2048, box.category=_test_lo_box, box.executor.async_call.scheduled=false}]#.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - Box #box01# inited.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: INITIALIZED.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZED to state: STARTING.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - Starting box #box01#.
+2018-02-26 11:15:16.663 INFO [main][lo.lifecycle.logger][{}] - Start Box log4j2.
+2018-02-26 11:16:39.668 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:16:39.668 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:16:39.668 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:16:39.668 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-26 11:16:39.714 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-26 11:16:39.714 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - Initing DependencyManager.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - Initing boxConfig.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - Box config key: #box/box01.properties#.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - Box config attrs: #BoxConfigAttrs [boxName=box01, boxHome=src/main/resources/box01, boxCategory=_test_lo_box, defaultCharset=UTF-8, enableMonitor=false, detailReportDelayInMins=30, gearList=[], enableProtocolList=[HTTP, DUBBO], enableClientList=[DUBBO, HTTP, LOCAL], tcpHealthCheckEnable=true, tcpHealthCheckPort=5555, timeoutWaitingGearsStopped=10000, tempFilesKeepMaxHours=72, properties={box.default.charset=UTF-8, box.version=1.0.0, box.config.gear.list=hello-world, box.executor.inner.threads=3, box.executor.async_call.threads=5, box.executor.default.threads=5, box.enable.protocol.list=http,dubbo, box.executor.inner.queueSize=1024, box.executor.inner.scheduled=true, box.name=box01, box.executor.default.queueSize=1024, box.executor.default.scheduled=true, box.enable.monitor=false, box.timeout.waiting.gears.stopped=10000, box.executor.async_call.queueSize=2048, box.category=_test_lo_box, box.executor.async_call.scheduled=false}]#.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - Box #box01# inited.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: INITIALIZED.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZED to state: STARTING.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - Starting box #box01#.
+2018-02-26 11:16:39.730 INFO [main][lo.lifecycle.logger][{}] - Start Box log4j2.
+2018-02-26 11:23:08.914 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:23:08.914 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:23:08.914 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:23:08.914 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-26 11:23:08.992 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-26 11:23:09.008 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-26 11:23:09.008 INFO [main][lo.lifecycle.logger][{}] - Initing DependencyManager.
+2018-02-26 11:23:09.008 INFO [main][lo.lifecycle.logger][{}] - Initing boxConfig.
+2018-02-26 11:23:09.008 INFO [main][lo.lifecycle.logger][{}] - Box config key: #box/box01.properties#.
+2018-02-26 11:23:09.023 INFO [main][lo.lifecycle.logger][{}] - Box config attrs: #BoxConfigAttrs [boxName=box01, boxHome=src/main/resources/box01, boxCategory=_test_lo_box, defaultCharset=UTF-8, enableMonitor=false, detailReportDelayInMins=30, gearList=[], enableProtocolList=[HTTP, DUBBO], enableClientList=[DUBBO, HTTP, LOCAL], tcpHealthCheckEnable=true, tcpHealthCheckPort=5555, timeoutWaitingGearsStopped=10000, tempFilesKeepMaxHours=72, properties={box.default.charset=UTF-8, box.version=1.0.0, box.config.gear.list=hello-world, box.executor.inner.threads=3, box.executor.async_call.threads=5, box.executor.default.threads=5, box.enable.protocol.list=http,dubbo, box.executor.inner.queueSize=1024, box.executor.inner.scheduled=true, box.name=box01, box.executor.default.queueSize=1024, box.executor.default.scheduled=true, box.enable.monitor=false, box.timeout.waiting.gears.stopped=10000, box.executor.async_call.queueSize=2048, box.category=_test_lo_box, box.executor.async_call.scheduled=false}]#.
+2018-02-26 11:23:09.023 INFO [main][lo.lifecycle.logger][{}] - Box #box01# inited.
+2018-02-26 11:23:09.023 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: INITIALIZED.
+2018-02-26 11:23:09.023 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZED to state: STARTING.
+2018-02-26 11:23:09.023 INFO [main][lo.lifecycle.logger][{}] - Starting box #box01#.
+2018-02-26 11:23:09.023 INFO [main][lo.lifecycle.logger][{}] - Start Box log4j2.
+2018-02-26 11:31:12.158 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:31:12.161 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:31:12.161 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:31:12.162 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-26 11:31:12.205 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-26 11:31:12.340 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-26 11:31:12.350 INFO [main][lo.lifecycle.logger][{}] - Initing DependencyManager.
+2018-02-26 11:31:12.353 INFO [main][lo.lifecycle.logger][{}] - Initing boxConfig.
+2018-02-26 11:31:12.354 INFO [main][lo.lifecycle.logger][{}] - Box config key: #box/box01.properties#.
+2018-02-26 11:31:12.373 INFO [main][lo.lifecycle.logger][{}] - Box config attrs: #BoxConfigAttrs [boxName=box01, boxHome=src/main/resources/box01, boxCategory=_test_lo_box, defaultCharset=UTF-8, enableMonitor=false, detailReportDelayInMins=30, gearList=[], enableProtocolList=[HTTP, DUBBO], enableClientList=[DUBBO, HTTP, LOCAL], tcpHealthCheckEnable=true, tcpHealthCheckPort=5555, timeoutWaitingGearsStopped=10000, tempFilesKeepMaxHours=72, properties={box.default.charset=UTF-8, box.version=1.0.0, box.config.gear.list=hello-world, box.executor.inner.threads=3, box.executor.async_call.threads=5, box.executor.default.threads=5, box.enable.protocol.list=http,dubbo, box.executor.inner.queueSize=1024, box.executor.inner.scheduled=true, box.name=box01, box.executor.default.queueSize=1024, box.executor.default.scheduled=true, box.enable.monitor=false, box.timeout.waiting.gears.stopped=10000, box.executor.async_call.queueSize=2048, box.category=_test_lo_box, box.executor.async_call.scheduled=false}]#.
+2018-02-26 11:31:12.373 INFO [main][lo.lifecycle.logger][{}] - Box #box01# inited.
+2018-02-26 11:31:12.373 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: INITIALIZED.
+2018-02-26 11:31:12.373 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZED to state: STARTING.
+2018-02-26 11:31:12.373 INFO [main][lo.lifecycle.logger][{}] - Starting box #box01#.
+2018-02-26 11:31:12.373 INFO [main][lo.lifecycle.logger][{}] - Start Box log4j2.
+2018-02-26 11:39:28.613 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:39:28.616 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:39:28.616 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-26 11:39:28.617 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-26 11:39:28.658 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-26 11:39:28.704 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-26 11:39:28.710 INFO [main][lo.lifecycle.logger][{}] - Initing DependencyManager.
+2018-02-26 11:39:28.712 INFO [main][lo.lifecycle.logger][{}] - Initing boxConfig.
+2018-02-26 11:39:28.713 INFO [main][lo.lifecycle.logger][{}] - Box config key: #box/box01.properties#.
+2018-02-26 11:39:28.723 INFO [main][lo.lifecycle.logger][{}] - Box config attrs: #BoxConfigAttrs [boxName=box01, boxHome=src/main/resources/box01, boxCategory=_test_lo_box, defaultCharset=UTF-8, enableMonitor=false, detailReportDelayInMins=30, gearList=[], enableProtocolList=[HTTP, DUBBO], enableClientList=[DUBBO, HTTP, LOCAL], tcpHealthCheckEnable=true, tcpHealthCheckPort=5555, timeoutWaitingGearsStopped=10000, tempFilesKeepMaxHours=72, properties={box.default.charset=UTF-8, box.version=1.0.0, box.config.gear.list=hello-world, box.executor.inner.threads=3, box.executor.async_call.threads=5, box.executor.default.threads=5, box.enable.protocol.list=http,dubbo, box.executor.inner.queueSize=1024, box.executor.inner.scheduled=true, box.name=box01, box.executor.default.queueSize=1024, box.executor.default.scheduled=true, box.enable.monitor=false, box.timeout.waiting.gears.stopped=10000, box.executor.async_call.queueSize=2048, box.category=_test_lo_box, box.executor.async_call.scheduled=false}]#.
+2018-02-26 11:39:28.723 INFO [main][lo.lifecycle.logger][{}] - Box #box01# inited.
+2018-02-26 11:39:28.723 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: INITIALIZED.
+2018-02-26 11:39:28.723 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZED to state: STARTING.
+2018-02-26 11:39:28.723 INFO [main][lo.lifecycle.logger][{}] - Starting box #box01#.
+2018-02-26 11:39:28.723 INFO [main][lo.lifecycle.logger][{}] - Start Box log4j2.

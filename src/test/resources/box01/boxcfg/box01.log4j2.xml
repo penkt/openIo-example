@@ -17,5 +17,14 @@
         <root level="debug" includeLocation="false">
             <appender-ref ref="ConsoleAppender" />
         </root>
+        <Logger name="org.springframework" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="com.alibaba.dubbo" level="INFO" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="org.eclipse.jetty" level="INFO" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
     </loggers>
 </configuration>

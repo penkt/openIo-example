@@ -1,0 +1,94 @@
+2018-02-24 10:06:23.027 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-24 10:06:23.030 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-24 10:06:23.030 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-24 10:06:23.031 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-24 10:06:23.164 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-24 10:06:23.170 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:dependencymanager.properties does not match any supported resourceManager !!
+2018-02-24 10:06:23.170 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:lo-runtime.version does not match any supported resourceManager !!
+2018-02-24 10:06:23.171 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:Mbeans-descriptors.xml.sample does not match any supported resourceManager !!
+2018-02-24 10:06:23.172 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:Mbens-desctiptiors.xml does not match any supported resourceManager !!
+2018-02-24 10:06:23.172 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:panel.properties does not match any supported resourceManager !!
+2018-02-24 10:06:23.172 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:start-log4j2.xml does not match any supported resourceManager !!
+2018-02-24 10:06:23.172 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:_lo_box_init.log4j2.xml does not match any supported resourceManager !!
+2018-02-24 10:06:23.172 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-24 10:06:23.204 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: FAILED.
+2018-02-24 10:06:23.205 ERROR [main][lo.lifecycle.logger][{}] - startBox exception.
+cn.openlo.exception.LifecycleException: Fail to initInternal.
+	at cn.openlo.common.LifecycleBase.init(LifecycleBase.java:117)
+	at cn.openlo.common.LifecycleBase.start(LifecycleBase.java:158)
+	at cn.openlo.box.Box.startBox(Box.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cn.openlo.management.BoxWrapper.invokeBoxMethod(BoxWrapper.java:652)
+	at cn.openlo.management.BoxWrapper._startup(BoxWrapper.java:615)
+	at cn.openlo.management.BoxWrapper.startBox(BoxWrapper.java:176)
+	at cn.openlo.starter.BoxManagementAgent.startBox(BoxManagementAgent.java:494)
+	at cn.openlo.starter.DefaultBoxStarter.startBox(DefaultBoxStarter.java:65)
+	at cn.openlo.starter.BoxStartupStandalone.main(BoxStartupStandalone.java:32)
+Caused by: cn.openlo.exception.LifecycleException: Fail to initInternal.
+	at cn.openlo.common.LifecycleBase.init(LifecycleBase.java:117)
+	at cn.openlo.common.LifecycleBase.start(LifecycleBase.java:158)
+	at cn.openlo.box.BoxBase.initInternal(BoxBase.java:295)
+	at cn.openlo.common.LifecycleBase.init(LifecycleBase.java:111)
+	... 12 more
+Caused by: cn.openlo.exception.LifecycleException: Panel init failed
+	at cn.openlo.panel.DefaultPanel.initInternal(DefaultPanel.java:722)
+	at cn.openlo.common.LifecycleBase.init(LifecycleBase.java:111)
+	... 15 more
+Caused by: java.nio.charset.IllegalCharsetNameException: UTF-8 
+	at java.nio.charset.Charset.checkName(Charset.java:315)
+	at java.nio.charset.Charset.lookup2(Charset.java:484)
+	at java.nio.charset.Charset.lookup(Charset.java:464)
+	at java.nio.charset.Charset.forName(Charset.java:528)
+	at cn.openlo.panel.DefaultPanel.initInternal(DefaultPanel.java:686)
+	... 16 more
+2018-02-24 10:06:23.205 INFO [main][lo.lifecycle.logger][{}] - startBox end.
+2018-02-24 10:14:01.414 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-24 10:14:01.416 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-24 10:14:01.416 INFO [main][lo.lifecycle.logger][{}] - =========================================================
+2018-02-24 10:14:01.417 INFO [main][lo.lifecycle.logger][{}] - Initing box #box01#.
+2018-02-24 10:14:01.465 INFO [main][lo.lifecycle.logger][{}] - Initing ResourceManager.
+2018-02-24 10:14:01.470 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:dependencymanager.properties does not match any supported resourceManager !!
+2018-02-24 10:14:01.470 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:lo-runtime.version does not match any supported resourceManager !!
+2018-02-24 10:14:01.471 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:Mbeans-descriptors.xml.sample does not match any supported resourceManager !!
+2018-02-24 10:14:01.472 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:Mbens-desctiptiors.xml does not match any supported resourceManager !!
+2018-02-24 10:14:01.472 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:panel.properties does not match any supported resourceManager !!
+2018-02-24 10:14:01.472 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:start-log4j2.xml does not match any supported resourceManager !!
+2018-02-24 10:14:01.472 WARN [main][cn.openlo.resource.StaticResourceManagerUtil][{}] - !! configFileName:_lo_box_init.log4j2.xml does not match any supported resourceManager !!
+2018-02-24 10:14:01.472 INFO [main][lo.lifecycle.logger][{}] - Initing Panel.
+2018-02-24 10:14:01.477 INFO [main][lo.lifecycle.logger][{}] - LifecycleBase. box01, from state: INITIALIZING to state: FAILED.
+2018-02-24 10:14:01.477 ERROR [main][lo.lifecycle.logger][{}] - startBox exception.
+cn.openlo.exception.LifecycleException: Fail to initInternal.
+	at cn.openlo.common.LifecycleBase.init(LifecycleBase.java:117)
+	at cn.openlo.common.LifecycleBase.start(LifecycleBase.java:158)
+	at cn.openlo.box.Box.startBox(Box.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cn.openlo.management.BoxWrapper.invokeBoxMethod(BoxWrapper.java:652)
+	at cn.openlo.management.BoxWrapper._startup(BoxWrapper.java:615)
+	at cn.openlo.management.BoxWrapper.startBox(BoxWrapper.java:176)
+	at cn.openlo.starter.BoxManagementAgent.startBox(BoxManagementAgent.java:494)
+	at cn.openlo.starter.DefaultBoxStarter.startBox(DefaultBoxStarter.java:65)
+	at cn.openlo.starter.BoxStartupStandalone.main(BoxStartupStandalone.java:32)
+Caused by: cn.openlo.exception.LifecycleException: Fail to initInternal.
+	at cn.openlo.common.LifecycleBase.init(LifecycleBase.java:117)
+	at cn.openlo.common.LifecycleBase.start(LifecycleBase.java:158)
+	at cn.openlo.box.BoxBase.initInternal(BoxBase.java:295)
+	at cn.openlo.common.LifecycleBase.init(LifecycleBase.java:111)
+	... 12 more
+Caused by: cn.openlo.exception.LifecycleException: Panel init failed
+	at cn.openlo.panel.DefaultPanel.initInternal(DefaultPanel.java:722)
+	at cn.openlo.common.LifecycleBase.init(LifecycleBase.java:111)
+	... 15 more
+Caused by: java.nio.charset.IllegalCharsetNameException: UTF-8 
+	at java.nio.charset.Charset.checkName(Charset.java:315)
+	at java.nio.charset.Charset.lookup2(Charset.java:484)
+	at java.nio.charset.Charset.lookup(Charset.java:464)
+	at java.nio.charset.Charset.forName(Charset.java:528)
+	at cn.openlo.panel.DefaultPanel.initInternal(DefaultPanel.java:686)
+	... 16 more
+2018-02-24 10:14:01.478 INFO [main][lo.lifecycle.logger][{}] - startBox end.
